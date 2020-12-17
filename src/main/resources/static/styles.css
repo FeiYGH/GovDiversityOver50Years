@@ -1,0 +1,128 @@
+#teamHTML{
+    background-image: url("white-background-1920x1080.jpg");
+    background-size:cover;
+}
+
+
+#team * {
+    box-sizing:border-box;
+    margin:1%;
+    position:relative;
+    font-family: Lato, "Helvetica Neue", Helvetica, sans-serif;
+    /*border:1px solid black;*/
+
+}
+
+h1#teamPageH1{
+    margin-top:3%;
+    font-size:40px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"]{
+    float:left;
+    padding:15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.col-profile{
+    width:23%;
+    background-color:gainsboro;
+    border:2px solid royalblue;
+    text-align:center;
+    color:orange;
+}
+.col-profileEmpty{
+    width:23%;
+}
+
+
+.teamPageH2{
+    text-align:center;
+}
+
+
+div#firstDAProfile{
+animation-duration: 3s;
+  animation-name: slideinDA1;
+}
+
+div#secondDAProfile{
+animation-duration: 3s;
+  animation-name: slideinDA2;
+}
+
+.profilePicDiv{
+    background-color:aliceblue;
+    display: flex;
+    flex-direction:column;
+    text-align:center;
+    padding:10px;
+}
+
+.github, .linkedIn{
+    width:30px;
+    padding-top:2px;
+    padding-bottom:4px;
+     border-bottom:4px solid transparent;
+}
+
+.github:hover, .linkedIn:hover{
+    border-bottom:4px solid orange;
+}
+
+@keyframes slideinDA1 {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left:0%;
+    width: 100%;
+  }
+}
+
+#firstDAProfile{
+  animation-duration: 3s;
+  animation-name: slideinDA1;
+}
+
+
+#secondDAProfile{
+  animation-duration: 3s;
+  animation-name: slideinDA2;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+@keyframes slideinDA2 {
+
+  from {
+    margin-left: 100%;
+    margin-top:5%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 30%;
+    width: 100%;
+  }
+
+}
