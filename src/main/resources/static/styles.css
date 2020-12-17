@@ -1,3 +1,16 @@
+.reportDiv{
+    margin:2%;
+}
+
+.reportDiv > h2{
+    text-align:center;
+    padding:10px;
+}
+
+.nav-link{
+    font-size:30px;
+}
+
 #teamHTML{
     background-image: url("white-background-1920x1080.jpg");
     background-size:cover;
@@ -11,6 +24,11 @@
     font-family: Lato, "Helvetica Neue", Helvetica, sans-serif;
     /*border:1px solid black;*/
 
+}
+
+#team{
+    margin-left:2%;
+    margin-right:2%;
 }
 
 h1#teamPageH1{
@@ -58,16 +76,6 @@ h1#teamPageH1{
 }
 
 
-div#firstDAProfile{
-animation-duration: 3s;
-  animation-name: slideinDA1;
-}
-
-div#secondDAProfile{
-animation-duration: 3s;
-  animation-name: slideinDA2;
-}
-
 .profilePicDiv{
     background-color:aliceblue;
     display: flex;
@@ -87,42 +95,42 @@ animation-duration: 3s;
     border-bottom:4px solid orange;
 }
 
-@keyframes slideinDA1 {
-  from {
-    margin-left: 100%;
-    width: 100%;
-  }
-
-  to {
-    margin-left:0%;
-    width: 100%;
-  }
+#firstDAProfile, #firstFSEProfile{
+    animation-name:left1;
+    animation-duration:4s;
 }
-
-#firstDAProfile{
-  animation-duration: 3s;
-  animation-name: slideinDA1;
-}
-
 
 #secondDAProfile{
-  animation-duration: 3s;
-  animation-name: slideinDA2;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+    animation-name:left2;
+    animation-duration:4s;
 }
 
-@keyframes slideinDA2 {
+#thirdDAProfile{
+    animation-name:right1;
+    animation-duration:4s;
+}
 
-  from {
-    margin-left: 100%;
-    margin-top:5%;
-    width: 300%;
-  }
+#fourthDAProfile, #secondFSEProfile{
+    animation-name:right2;
+    animation-duration:4s;
+}
 
-  to {
-    margin-left: 30%;
-    width: 100%;
-  }
+@keyframes left1{
+    0%{margin-left: -200px;}
+    100% {margin-left: 0px;}
+}
 
+@keyframes left2{
+    0%{margin-left: -200px;}
+    100% {margin-left: 0px;}
+}
+
+@keyframes right1{
+    0%{margin-left: 100%;}
+    100% {margin-left: 0px;}
+}
+
+@keyframes right2{
+    0%{margin-left: 100%;}
+    100% {margin-left: 0px;}
 }
