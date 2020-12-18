@@ -215,9 +215,15 @@ h1#teamPageH1{
 
 .aboutDesc{
     margin:7%;
-    padding:3%;
+    padding:4%;
     background-color:white;
     min-height:475px;
     opacity:80%;
 
+}
+
+.descParagraph{
+    font-size:22px;
+    color:orange;
+    line-height:1.7;
 }
