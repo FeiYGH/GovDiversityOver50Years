@@ -65,12 +65,20 @@ a.nav-link{
 }
 
 iframe{
-    padding:5px;
-    background-color:black;
+    background-color:floralwhite;
 }
 
+.displayArea{
+    outline:30px solid black;
+}
+
+iframe.explorationContainer iframe.exploreCanvas iframe.canvasFlexBox iframe.displayAreaContainer iframe.displayAreaViewport{
+    background-color:floralwhite;
+}
+
+
 .reportDiv{
-    margin:2%;
+    margin:3%;
 }
 
 .reportDiv > h2{
@@ -222,8 +230,16 @@ h1#teamPageH1{
 
 }
 
-.descParagraph{
+#aboutHeader{
+    display:none;
+}
+
+#descParagraph{
+    display:none;
     font-size:22px;
     color:orange;
     line-height:1.7;
 }
+
+
+
