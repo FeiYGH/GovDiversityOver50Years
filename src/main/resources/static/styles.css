@@ -72,6 +72,10 @@ iframe{
     outline:30px solid black;
 }
 
+div.displayAreaViewport{
+    background-color:floralwhite;
+}
+
 iframe.explorationContainer iframe.exploreCanvas iframe.canvasFlexBox iframe.displayAreaContainer iframe.displayAreaViewport{
     background-color:floralwhite;
 }
