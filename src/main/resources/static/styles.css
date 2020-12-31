@@ -84,6 +84,8 @@ iframe.explorationContainer iframe.exploreCanvas iframe.canvasFlexBox iframe.dis
 
 .reportDiv{
     margin:3%;
+    padding:10px;
+    background-color:rgb(58, 58, 58);
 }
 
 .reportDiv > h2{
