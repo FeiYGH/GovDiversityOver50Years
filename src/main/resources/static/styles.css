@@ -66,7 +66,8 @@ a.nav-link{
 }
 
 iframe{
-    background-color:floralwhite;
+    background-color:white;
+    padding:7px;
 }
 
 .displayArea{
